@@ -28,6 +28,10 @@ body {
   overflow-x: hidden;
 }
 
+h4 {
+  margin: 0px;
+}
+
 button {
   cursor: pointer;
   border: 0px;
@@ -118,5 +122,19 @@ figure {
 
   .intro-images img {
     top: 0%;
+  }
+
+  /*? Footer */
+
+  .footer-social-media-container {
+    gap: 15px;
+  }
+
+  .footer-nav {
+    display: block;
+  }
+
+  .footer-nav li {
+    margin-bottom: 5px;
   }
 }

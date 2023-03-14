@@ -33,15 +33,18 @@ p {
   top: -20%;
 }
 
-.why-easybank, .articles-section {
+.why-easybank,
+.articles-section {
   padding: 25px;
   color: var(--primary-dark-blue);
 }
+
 .why-easybank {
   background-color: var(--neutral-very-light-gray);
 }
 
-.reasons-container, .articles-container {
+.reasons-container,
+.articles-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   column-gap: 20px;

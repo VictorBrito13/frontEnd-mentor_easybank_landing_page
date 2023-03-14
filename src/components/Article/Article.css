@@ -1,3 +1,13 @@
+.article {
+  transition: color .2s linear;
+  cursor: pointer;
+}
+
+.article:hover {
+  color: var(--primary-lime-green);
+  transition: color .2s linear;
+}
+
 .article-img {
   display: block;
   width: 100%;

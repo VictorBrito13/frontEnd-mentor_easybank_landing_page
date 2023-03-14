@@ -41,9 +41,9 @@ export default function AboutUs() {
       <div className="articles-section">
         <h2>Latest Articles</h2>
         <div className="articles-container">
-          {
-            articles.map((article, index) => <Article article={article} key={index} />)
-          }
+          {articles.map((article, index) => (
+            <Article article={article} key={index} />
+          ))}
         </div>
       </div>
     </div>
