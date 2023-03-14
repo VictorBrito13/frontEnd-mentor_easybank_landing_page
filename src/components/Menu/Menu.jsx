@@ -1,21 +1,31 @@
 import "./Menu.css";
+import { useState } from "react";
+import RequestInviteBtn from "../btnRequestInvite/btn";
 
 export default function Menu() {
+  const [menuClose, setMenuClose] = useState(true);
 
-  function menuInteraction(element){
-    element.classList.toggle("menu-opened")
+  function menuInteraction(element) {
+    element.classList.toggle("menu-opened");
+    setMenuClose((prevState) => !prevState);
   }
 
   return (
-    <div className="component-container">
+    <div className="menu-component-container">
       <nav className="menu-container">
         <ul className="menu">
           <li className="menu-item logo-container">
             <img src="./src/assets/images/logo.svg" />
             <img
               className="close-menu"
-              src="./src/assets/images/icon-close.svg"
-              onClick={() => menuInteraction(document.querySelector('.sub-menu-container'))}
+              src={
+                menuClose
+                  ? "./src/assets/images/icon-hamburger.svg"
+                  : "./src/assets/images/icon-close.svg"
+              }
+              onClick={() =>
+                menuInteraction(document.querySelector(".sub-menu-container"))
+              }
             />
           </li>
           <li className="menu-item sub-menu-container">
@@ -38,7 +48,7 @@ export default function Menu() {
             </ul>
           </li>
           <li className="menu-item">
-            <button>Request Intive</button>
+            <RequestInviteBtn />
           </li>
         </ul>
       </nav>

@@ -1,7 +1,8 @@
-.menu-container {
+.menu-component-container {
   position: sticky;
   top: 0%;
   background-color: var(--neutral-white);
+  z-index: 10;
 }
 
 .close-menu {
@@ -54,18 +55,4 @@
 .sub-menu a:hover::after {
   transition: .2s linear left;
   left: 0px;
-}
-
-.menu-item button {
-  background-image: linear-gradient(to right, var(--primary-lime-green), var(--primary-bright-cyan));
-  border-radius: 50px;
-  font-weight: 700;
-  color: var(--neutral-white);
-  opacity: 1;
-  transition: .2s linear;
-}
-
-.menu-item button:hover {
-  transition: .2s linear;
-  opacity: .7;
 }
