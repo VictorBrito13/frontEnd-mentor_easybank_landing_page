@@ -5,13 +5,13 @@ export default function Footer() {
   return (
     <footer>
       <div className="footer-social-media-container">
-        <img src="./src/assets/images/logo.svg"/>
+        <img src="./assets/images/logo.svg"/>
         <div className="social-media">
-          <img src="./src/assets/images/icon-facebook.svg"/>
-          <img src="./src/assets/images/icon-youtube.svg"/>
-          <img src="./src/assets/images/icon-twitter.svg"/>
-          <img src="./src/assets/images/icon-pinterest.svg"/>
-          <img src="./src/assets/images/icon-instagram.svg"/>
+          <img src="./assets/images/icon-facebook.svg"/>
+          <img src="./assets/images/icon-youtube.svg"/>
+          <img src="./assets/images/icon-twitter.svg"/>
+          <img src="./assets/images/icon-pinterest.svg"/>
+          <img src="./assets/images/icon-instagram.svg"/>
         </div>
       </div>
 

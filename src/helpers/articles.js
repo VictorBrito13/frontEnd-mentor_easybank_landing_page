@@ -1,4 +1,4 @@
-const path = './src/assets/images/image-'
+const path = './assets/images/image-'
 
 export const articles = [
     {

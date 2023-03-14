@@ -15,13 +15,13 @@ export default function Menu() {
       <nav className="menu-container">
         <ul className="menu">
           <li className="menu-item logo-container">
-            <img src="./src/assets/images/logo.svg" />
+            <img src="./assets/images/logo.svg" />
             <img
               className="close-menu"
               src={
                 menuClose
-                  ? "./src/assets/images/icon-hamburger.svg"
-                  : "./src/assets/images/icon-close.svg"
+                  ? "./assets/images/icon-hamburger.svg"
+                  : "./assets/images/icon-close.svg"
               }
               onClick={() =>
                 menuInteraction(document.querySelector(".sub-menu-container"))

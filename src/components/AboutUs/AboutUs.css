@@ -22,7 +22,7 @@ p {
 
 .intro-images {
   position: relative;
-  background-image: url(./src/assets/images/bg-intro-desktop.svg);
+  background-image: url('./assets/images/bg-intro-desktop.svg');
 }
 
 .intro-images img {

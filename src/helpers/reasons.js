@@ -1,4 +1,4 @@
-const path = "./src/assets/images";
+const path = "./assets/images/";
 
 export const reasons = [
   {

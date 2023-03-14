@@ -1,6 +1,6 @@
 import "./AboutUs.css";
-import { reasons } from "../../assets/helpers/reasons";
-import { articles } from "../../assets/helpers/articles";
+import { reasons } from "../../helpers/reasons";
+import { articles } from "../../helpers/articles";
 
 import RequestInviteBtn from "../btnRequestInvite/btn";
 import Reason from "../Reasons/Reasons";
@@ -20,7 +20,7 @@ export default function AboutUs() {
           <RequestInviteBtn />
         </div>
         <div className="intro-images">
-          <img src="./src/assets/images/image-mockups.png" />
+          <img src="./assets/images/image-mockups.png" />
         </div>
       </div>
 
