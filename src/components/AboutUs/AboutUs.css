@@ -1,0 +1,46 @@
+.aboutUs-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 850px;
+}
+
+h1 {
+  color: var(--primary-dark-blue);
+}
+
+p {
+  color: var(--neutral-grayish-blue);
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.intro-images {
+  position: relative;
+  background-image: url(./src/assets/images/bg-intro-desktop.svg);
+}
+
+.intro-images img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: -20%;
+}
+
+.why-easybank {
+  background-color: var(--neutral-very-light-gray);
+  padding: 25px;
+  color: var(--primary-dark-blue);
+}
+
+.reasons-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  column-gap: 20px;
+}

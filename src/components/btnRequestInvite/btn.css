@@ -1,0 +1,13 @@
+button {
+  background-image: linear-gradient(to right, var(--primary-lime-green), var(--primary-bright-cyan));
+  border-radius: 50px;
+  font-weight: 700;
+  color: var(--neutral-white);
+  opacity: 1;
+  transition: .2s linear;
+}
+
+.menu-item button:hover {
+  transition: .2s linear;
+  opacity: .7;
+}
