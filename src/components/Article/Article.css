@@ -1,0 +1,9 @@
+.article-img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+hr {
+  outline: 1px solid;
+  border: 0px;
+}
